@@ -1,0 +1,162 @@
+body {
+    background-color: rgb(7, 10, 27);
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+    font-size: 44px;
+}
+
+/** Tá dando uma olhada no meu código? Então segue lá na Twitch https://www.twitch.tv/vittimbr e no Twitter https://twitter.com/Vittimbr **/
+
+.menu {
+    width: 100%;
+    height: 7rem;
+    background-color: rgba(0, 6, 41, 0.5);
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    font-size: 50px;
+    backdrop-filter: blur(2px);
+}
+/** Tá dando uma olhada no meu código? Então segue lá na Twitch https://www.twitch.tv/vittimbr e no Twitter https://twitter.com/Vittimbr **/
+.sites {
+    width: 46%;
+    height: 92%;
+    margin:auto;
+    background-color: rgba(0, 155, 167, 0.671); 
+    border-radius: 7.5px;
+    box-shadow: rgba(5, 70, 75, 0.39) 18px 13.5px;
+    text-align: center;
+}
+
+.espacamento {
+    width: 100vw;
+    height: 600px;
+    margin:auto;
+    margin-top: 10rem;
+    display: flex;
+    
+}
+
+.site1 {
+    background-image: url(../Img/site2.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 94%;
+    height: 80%;
+    border-radius: 7.5px;
+    padding-top: 5%;
+}
+
+.site2 {
+    background-image: url(../Img/site1.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 94%;
+    height: 80%;
+    border-radius: 7.5px;
+    padding-top: 5%;
+}
+/** Tá dando uma olhada no meu código? Então segue lá na Twitch https://www.twitch.tv/vittimbr e no Twitter https://twitter.com/Vittimbr **/
+.site3 {
+    background-image: url(../Img/site3.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 94%;
+    height: 80%;
+    border-radius: 7.5px;
+    padding-top: 5%;
+}
+
+.site4 {
+    background-image: url(../Img/site4.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 94%;
+    height: 80%;
+    border-radius: 7.5px;
+    padding-top: 5%;
+}
+
+.texto {
+    width: 100%;
+    margin: auto;
+    word-spacing: 1px;
+    align-self: center;
+}
+
+.texto1 {
+    margin-top: 7px;
+}
+
+.texto2 {
+    margin-top: 15px;
+}
+
+.texto3 {
+    margin-top: 14px;
+}
+
+.texto4 {
+    margin-top: 35px;
+}
+
+.orgtexto {
+    margin-top: 216px;
+    margin-left: 4px;
+    border-radius: 7.5px;
+    background-color: rgb(255, 251, 0);
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 35%;
+    height: 50%;
+    color: black;
+    -webkit-text-stroke: 0.15px #222222;
+}
+
+.centro {
+    color: #ffdd00;
+    font-size: 38px;
+}
+
+a {
+    text-decoration: none;
+    margin: auto;
+    color: rgba(0, 238, 255, 0.732);
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(84, 221, 231);
+}
+
+.espaco {
+    width: 100%;
+    height: 10rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 7.5px;
+}
+
+.rodape {
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 10rem;
+    background-color: rgb(0, 6, 41);
+    display: flex;
+    color: rgba(0, 238, 255, 0.732);
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+}
+
+.ajuda {
+    margin: auto;
+}
+
+.contato {
+    margin: auto;
+    font-size: 27px;
+}
